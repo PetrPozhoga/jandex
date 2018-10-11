@@ -1,26 +1,10 @@
 # jandex-noveo
 
-## Project setup
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
+Get OAuth token [here](https://oauth.yandex.ru/authorize?response_type=token&client_id=034f5983b23e479ab46f46e5b6b35f65)
+Open src/store.js and put OAuth token in 'token' let on line 41
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
